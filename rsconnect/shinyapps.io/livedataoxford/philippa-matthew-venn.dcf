@@ -1,0 +1,11 @@
+name: philippa-matthew-venn
+title: philippa-matthew-venn
+account: livedataoxford
+server: shinyapps.io
+appId: 155428
+bundleId: 728007
+url: https://livedataoxford.shinyapps.io/philippa-matthew-venn/
+when: 1488285863.68953
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: groups-to-venns.R|inital-experiments.Rmd|meeting-notes.Rmd|treemap.Rmd|Venns.Rmd
