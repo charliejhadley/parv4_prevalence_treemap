@@ -1,8 +1,6 @@
 library(highcharter)
 
-shinyUI(fluidPage(
-  "",
-  tabsetPanel(
+shinyUI(tabsetPanel(
   tabPanel(
     "Treemap of PARV4 and other BBV prevalence in a multicentre African cohort",
     fluidPage(
@@ -13,6 +11,8 @@ shinyUI(fluidPage(
     )
   ),
   tabPanel("About",
-           includeMarkdown(knitr::knit("tab_about.Rmd"))),
+           fluidPage(includeMarkdown(
+             knitr::knit("tab_about.Rmd")
+           ))),
   type = "tabs"
-)))
+))
